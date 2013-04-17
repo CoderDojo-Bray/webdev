@@ -1,4 +1,4 @@
-HTML
+webdev
 ====
 
-HTML/CSS material presented in the web workstream in CoderDojo Bray
+Web technology and development material presented in the web workstream in CoderDojo Bray
