@@ -1,0 +1,65 @@
+/* 
+ * Start of our menu styling: use a "div" block to contain our menu
+ * Our list elements inside this div get particular styling
+ *
+ *
+ * Note the use of CSS child selectors in this stylesheet
+ * see http://www.w3.org/TR/CSS2/selector.html#child-selectors
+ *
+ */
+ 
+/* The basic style for the <div> holding the menu */
+#mymenu_c
+{ 
+height:37px; 
+display:block; 
+padding:0; 
+margin:20px auto;  
+border:1px solid;  
+background:#3e698c;
+border-radius: 10px;  
+}
+ 
+#mymenu_c > ul 
+{
+list-style:inside none; 
+padding:0; 
+margin:0;
+}
+ 
+#mymenu_c > ul > li 
+{
+list-style:inside none; 
+padding:0; 
+margin:0; 
+float:left; 
+position:relative;
+}
+
+/* The text for the links in our menu */
+#mymenu_c > ul > li > a
+{ 
+outline: none;  
+display: block;
+position:relative; 
+padding:12px 20px; 
+font:bold 13px/100% Arial, Helvetica, sans-serif; 
+text-align:center; 
+text-decoration:none; 
+text-shadow:1px 1px 0 rgba(0,0,0, 0.4); 
+border-right:1px solid #1b313d;  
+color: #fff;
+} 
+
+/* CHANGE: change the menu colour when we hover over a menu item */
+#mymenu_c > ul > li > a:hover
+{
+background:#437593;
+} 
+
+/* CHANGE: make sure when we hover over the first menu item, we round the corners */
+#mymenu_c > ul > li:first-child > a
+{
+border-radius:10px 0 0 10px; 
+} 
+
