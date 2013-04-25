@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bakery</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+		<link href="styles_menu.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+	
+	<div id="container">
+	
+		<div id="header">
+			<h1>
+				Bob's Bakery - We love cakes too!!!
+			</h1>
+		</div>
+		
+		<div id="navigation">
+			<ul>
+				<li><a href='index.html'>Home</a></li>
+				<li class='submenu'><a href='#'>Menu</a>
+					<ul>
+						<li><a href='bread.html'>Breads</a></li>
+						<li><a href='cake.html'>Cakes</a></li>
+						<li><a href='other.html'>Other</a></li>
+	<!-- other.html does not exist, note this is only for the link from Bread page to Other -->
+					</ul>
+				</li>
+				<li><a href='#'>About</a></li>
+				<li><a href='awards.html'>Awards</a></li>
+				<li><a href='#'>Contact</a></li>
+	<!-- none of these pages exist, so will not link - raise question why some show page cannot be displayed and some just stay on existing page -->
+			</ul>
+		</div>
+		
+		<div id="content-container">
+			<div id="content">
+				<h2>
+					Our selection of Cakes
+				</h2>
+				<p>
+				Cakes, Cakes, and more Cakes.......
+				</p>
+				<p>
+	
+				</p>
+				<p>
+					<table>
+					<tr>
+						<th>Birthday cake</th>
+						<th>Wedding cake</th>
+						<th>Novelty cake</th>
+					</tr>
+					<tr>
+						<td><img src="images\bdaycake.jpg"></td>
+						<td><img src="images\weddingcake.jpg"></td>
+					</tr>
+					<tr>
+						<td><img src="images\angrycake.jpg"></td>
+					</tr>
+		<!-- Why is this cake not in same table, should be inside second tr tags, line 56-59 -->
+					</table>	
+		<!-- Image rights discussion. Also resizing of images -->
+					
+				</p>
+			</div>
+			
+			<div id="aside">
+				<h3>
+					New Delivery Service!!!
+				</h3>
+				<p>
+					We now deliver to the following towns 
+					<ul>
+						<li>Bray</li>
+						<li>Greystones</li>
+						Enniskerry
+	<!-- No tags at all -->
+						<li>Shankill</li>
+						
+						<li>you can also find us on <a href="http://www.facebook.com">Facebook</a></li>
+					</ul>
+				</p>
+			</div>
+		
+			<div id="footer">
+				Copyright © Bob, 2004
+			</div>	
+		</div>
+	</div>
+		
+	</body>
+	
+</html>
