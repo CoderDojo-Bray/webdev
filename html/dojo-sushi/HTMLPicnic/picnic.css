@@ -1,66 +1,34 @@
-﻿
-body {
-  padding: 2em 1em 2em 70px;
+﻿body {
+  padding: 2em 1em 2em 3em;
   margin: 0;
   font-family: sans-serif;
-  color: black;
-  background: white;
-  background-position: top left;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
- 	background-color: #E7EAEB;
-	padding: 2em;
-	box-shadow: 10px 10px 5px #888;
-	width: 500px;
 }
-:link { color: #00C; background: transparent }
-:visited { color: #609; background: transparent }
-a:active { color: #C00; background: transparent }
-
-a:link img, a:visited img { border-style: none }  
-
-ol.ingredients {
-	background-color: #F1D4CF;
-	padding: 2em;
-	box-shadow: 10px 10px 5px #888;
-	width: 500px;
-}
-
-
-table { 
- border: 1px solid #D43C24;
- font-family: sans-serif;
-}
-
-table, th, td { 
- border: 0px solid #D43C24;
- font-family: sans-serif;
-}
-
-
 
 h1, h2 { text-align: left }
-h1, h2 { color: #005A9C; background: white }
+h1, h2 { color: #005A9C;}
 h1 { font: 170% sans-serif }
 h2 { font: 140% sans-serif }
 
-h1 {
-	background-color: #D43C24;
-	color: #FFFFFF; 
+.ingredients, .things-you-need, .ideas {
+	background-color: #F1D4CF;
 	padding: 2em;
-	box-shadow: 10px 10px 5px #888;
+	padding-top: 1.5em;
+	box-shadow: 10px 10px 5px #888888;
 	width: 500px;
 }
 
-h2 {
-	background-color: #25B6D5;
-	color: #FFFFFF; 
-	padding: 2em;
-	box-shadow: 10px 10px 5px #888;
-	width: 500px;
+.ingredient {
+	color: #D43C24;
+	font-weight: bold;
 }
 
+.hide {
+  display: none
+}
 
-.hide { display: none }
-
-
+.shouting {
+  color: #D43C24;
+	font-weight: bold;
+	font-size: 3em;
+	font-variant:all-caps;
+}

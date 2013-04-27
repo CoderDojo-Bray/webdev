@@ -1,0 +1,90 @@
+﻿
+body {
+  padding: 2em 1em 2em 3em;
+  margin: 0;
+  font-family: sans-serif;
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ 	background-color: #E7EAEB;
+	padding: 2em;
+	box-shadow: 10px 10px 5px #888888;
+	width: 500px;
+}
+:link { color: #0000CC; background: transparent }
+:visited { color: #660099; background: transparent }
+a:active { color: #CC0000; background: transparent }
+
+a:link img, a:visited img { border-style: none }  
+
+table { 
+ border: 1px solid #D43C24;
+ font-family: sans-serif;
+}
+
+table, th, td { 
+ border: 0px;
+ font-family: sans-serif;
+ text-align: left;
+}
+
+th, td { 
+ padding: 4px;
+}
+
+
+
+h1, h2 { text-align: left }
+h1 { font: 170% sans-serif }
+h2 { font: 140% sans-serif }
+
+h1 {
+	background-color: #D43C24;
+	color: #FFFFFF; 
+	padding: 2em;
+	box-shadow: 10px 10px 5px #888888;
+	width: 500px;
+}
+
+.standout {
+	background-color: #25B6D5;
+	color: #FFFFFF; 
+	padding: 2em;
+	box-shadow: 10px 10px 5px #888888;
+	width: 500px;
+}
+
+.ingredients, .things-you-need, .ideas {
+	background-color: #F1D4CF;
+	padding: 2em;
+	padding-top: 1.5em;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.ingredient {
+	color: #D43C24;
+	font-weight: bold;
+}
+
+.ingredients, .ideas {
+	margin-top: 2em;
+}
+
+.things-you-need {
+	margin-bottom: 2em;
+}
+
+.ideas {
+	background-color: #B9D6DB;
+}
+
+.hide {
+  display: none
+}
+
+.shouting {
+  color: #D43C24;
+	font-weight: bold;
+	font-size: 3em;
+	font-variant:all-caps;
+}
