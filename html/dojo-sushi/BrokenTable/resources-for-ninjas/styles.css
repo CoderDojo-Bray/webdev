@@ -1,0 +1,36 @@
+/*
+Anything between these special tags is a comment
+And is just ignored by your web browser
+Comments are useful to remind yourself how things work
+*/
+
+body {
+    font-size:1em;
+    font-family: verdana,helvetica,arial,sans-serif;
+}
+
+h1 {
+    font-size:1em;
+}
+
+table {
+    width: 600px;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: grey;
+    font-size:1em;
+}
+
+tr {
+    background-color: lightgrey;
+}
+
+th, td {
+    border: 1px Solid white !important;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
