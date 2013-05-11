@@ -1,0 +1,62 @@
+/*
+Anything between these special tags is a comment
+And is just ignored by your web browser
+Comments are useful to remind yourself how things work
+*/
+
+body {
+    font-size:0.8em;
+    font-family: verdana,helvetica,arial,sans-serif;
+    width: 550px;
+}
+
+h2 {
+    font-size:1.2em;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+
+h3 {
+    font-size:1em;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+.main-picture {
+    width: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+table img {
+    width: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+table {
+    width: 500px;
+    padding: 0px;
+    border: 1px solid grey;
+    background-color: green;
+    font-size:1em;
+}
+
+tr {
+    background-color: white;
+}
+
+td, th {
+    border: 1px Solid white !important;
+    text-align: center;
+}
+
+
+
+th {
+    background-color: black;
+    color: white;
+}
+
