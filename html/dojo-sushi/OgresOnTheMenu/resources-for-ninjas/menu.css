@@ -1,0 +1,36 @@
+nav {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color: #CFE0A0;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    margin-bottom: 1em;
+}
+	
+nav ul {	
+    list-style-type: none;  
+	 	padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    border-right: 1px solid green;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: black;
+}
+

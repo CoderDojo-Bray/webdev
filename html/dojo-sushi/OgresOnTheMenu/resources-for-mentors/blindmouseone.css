@@ -1,0 +1,112 @@
+/*
+Anything between these special tags is a comment
+And is just ignored by your web browser
+Comments are useful to remind yourself how things work
+*/
+
+body {
+    font-size:0.9em;
+    font-family: Garamond, “Hoefler Text”, Times New Roman, Times, serif;
+    width: 550px;
+    background-color: #E8F3C7;
+}
+
+h1, h2 {
+    padding-bottom: 5px;
+    font-family: 'Chow Fun', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman';
+    clear: both;
+    color: green;
+}
+
+h1 {
+    font-size:2em;
+}
+
+
+h2 {
+    font-size:1.8em;
+}
+
+
+h3 {
+    font-size:1em;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+.main-picture {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    box-shadow: 10px 10px 5px #888;
+    border: 3px solid green;
+    
+}
+
+table img {
+    width: 100px;
+    margin: 5px;
+    border: 3px solid green;
+    box-shadow: 5px 5px 3px #888
+}
+
+table {
+    width: 500px;
+    padding: 0px;
+    border: 1px solid grey;
+    background-color: green;
+    font-size:1em;
+}
+
+tr {
+    background-color: #CFE0A0;
+}
+
+td, th {
+    border: 1px Solid white !important;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color: #CFE0A0;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    margin-bottom: 1em;
+}
+	
+nav ul {	
+    list-style-type: none;  
+	 	padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    border-right: 1px solid green;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: black;
+}
+
